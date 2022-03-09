@@ -1,8 +1,8 @@
-import { Wrapper, Content } from "../Header/Header.styles"
+import { Wrapper, Content } from "./Grid.styles"
 
 const Grid = ({ header, children }) => (
     <Wrapper>
-        <h1>{header}</h1>
+        {header ? <h1>{header}</h1> : null}
         <Content>{children}</Content>
     </Wrapper>
 )

@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <Wrapper>
             <Content>
-                Header
+                <h1>Tom's Wordles</h1>
             </Content>
         </Wrapper>
     )
